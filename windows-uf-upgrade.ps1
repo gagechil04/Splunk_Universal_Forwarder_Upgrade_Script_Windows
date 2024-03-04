@@ -9,5 +9,5 @@ sleep 60
 cd "C:\Path\to\SplunkInstaller"
 
 echo "Starting Splunk Upgrade...."
-msiexec.exe /i splunkforwarder-9.1.1-64e843ea36b1-x64-release.msi AGREETOLICENSE=yes SPLUNKUSERNAME=SplunkAdmin GENRANDOMPASSWORD=1 /quiet
+msiexec.exe /i splunkforwarder-9.1.1-64e843ea36b1-x64-release.msi AGREETOLICENSE=yes /quiet
 sleep 30
